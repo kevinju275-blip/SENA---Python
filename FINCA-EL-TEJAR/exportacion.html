@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Café — Finca El Tejar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="elcafe.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">CAFE EL TEJAR <em>Huila</em></a>
+    <ul class="nav-links">
+      <li><a href="elcafe.html">El Café</a></li>
+      <li><a href="sedes.html">Nuestras sedes</a></li>
+      <li><a href="exportacion.html">Exportación</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Café verde,<br>listo para cualquier puerto.</h1>
+      <p class="lede">Exportamos desde un contenedor de prueba hasta volúmenes anuales fijos, con ficha técnica, resultado de catación y certificado de origen en cada envío.</p>
+      <div class="hero-cta">
+        <a href="contacto.html" class="btn btn-primary">Pedir muestras</a>
+        <a href="#rutas" class="btn btn-ghost">Ver destinos</a>
+      </div>
+    </div>
+    <div class="hero-fig">
+      <svg class="cherry-svg" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de un barco de carga">
+        <circle cx="180" cy="180" r="170" fill="none" stroke="var(--linea)" stroke-width="1"/>
+
+        <!-- casco del barco -->
+        <path d="M70 220 L290 220 L260 270 L100 270 Z" fill="var(--tierra-2)" stroke="var(--oro)" stroke-width="2"/>
+
+        <!-- línea de agua -->
+        <path d="M40 270 C 90 258, 130 282, 180 270 C 230 258, 270 282, 320 270" fill="none" stroke="var(--linea)" stroke-width="2"/>
+        <path d="M55 288 C 100 276, 140 300, 190 288 C 240 276, 280 300, 305 290" fill="none" stroke="var(--linea)" stroke-width="1.4" opacity="0.6"/>
+
+        <!-- contenedores apilados -->
+        <rect x="95" y="175" width="55" height="45" fill="none" stroke="var(--pergamino)" stroke-width="2"/>
+        <rect x="155" y="175" width="55" height="45" fill="none" stroke="var(--cereza)" stroke-width="2"/>
+        <rect x="215" y="175" width="55" height="45" fill="none" stroke="var(--pergamino)" stroke-width="2"/>
+
+        <!-- mástil y bandera -->
+        <line x1="180" y1="175" x2="180" y2="115" stroke="var(--pergamino)" stroke-width="2"/>
+        <path d="M180 115 L215 128 L180 141 Z" fill="var(--cereza-2)"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat">
+      <div class="num">1–20 ton</div>
+      <div class="lbl">Rango de volumen por contenedor, de muestra a pedido fijo</div>
+    </div>
+    <div class="stat">
+      <div class="num">4</div>
+      <div class="lbl">Continentes de destino: Norteamérica, Europa, Asia y Oceanía</div>
+    </div>
+    <div class="stat">
+      <div class="num">100%</div>
+      <div class="lbl">Lotes con ficha técnica y certificado de origen</div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">De la bodega al barco</div>
+        <h2>Cómo preparamos cada envío</h2>
+      </div>
+      <p>El mismo cuidado del proceso en finca se mantiene hasta el empaque final.</p>
+    </div>
+    <div class="proceso-list">
+      <div class="paso">
+        <div class="n">Selección</div>
+        <h3>Consolidación de lote</h3>
+        <p>Reunimos el volumen solicitado a partir de los lotes ya trillados y catados.</p>
+      </div>
+      <div class="paso">
+        <div class="n">Empaque</div>
+        <h3>Sacos de yute, fique o GrainPro</h3>
+        <p>Según lo que pida el comprador, para conservar frescura durante el transporte.</p>
+      </div>
+      <div class="paso">
+        <div class="n">Documentación</div>
+        <h3>Ficha técnica y catación</h3>
+        <p>Cada envío sale con su perfil de taza y certificado de origen.</p>
+      </div>
+      <div class="paso">
+        <div class="n">Transporte</div>
+        <h3>Puerto y destino final</h3>
+        <p>Coordinamos la logística hasta el puerto de salida y el destino del comprador.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="rutas">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Presencia internacional</div>
+        <h2>Café del Huila en cualquier destino</h2>
+      </div>
+      <p>Trabajamos con tostadores, importadores y distribuidores que buscan café verde con origen y calidad verificables.</p>
+    </div>
+
+    <div class="export-wrap">
+      <ul class="rutas">
+        <li><span>Norteamérica</span><span>Estados Unidos, Canadá</span></li>
+        <li><span>Europa</span><span>Alemania, España, Países Bajos</span></li>
+        <li><span>Asia</span><span>Japón, Corea del Sur</span></li>
+        <li><span>Oceanía</span><span>Australia</span></li>
+      </ul>
+      <div class="export-copy">
+        <p>Cada contenedor sale con ficha técnica, resultado de catación y certificado de origen. Manejamos pedidos desde un contenedor de prueba hasta volúmenes anuales fijos.</p>
+        <p>Si representas una tostadora o una comercializadora, podemos enviarte muestras de las tres sedes para que definas tu propio perfil de compra.</p>
+        <a href="contacto.html" class="btn btn-primary">Pedir muestras de exportación</a>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>

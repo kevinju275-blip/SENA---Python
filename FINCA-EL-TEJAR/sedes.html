@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Café — Finca El Tejar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="elcafe.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="brand">CAFE EL TEJAR <em>Huila</em></a>
+    <ul class="nav-links">
+      <li><a href="elcafe.html">El Café</a></li>
+      <li><a href="sedes.html">Nuestras sedes</a></li>
+      <li><a href="exportacion.html">Exportación</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Tres sedes,<br>un mismo compromiso.</h1>
+      <p class="lede">Desde el piedemonte cálido de Tello hasta la altura del sur en Pitalito, cada sede aporta un perfil distinto. Neiva conecta ambos extremos y consolida todo el proceso de exportación.</p>
+      <div class="hero-cta">
+        <a href="exportacion.html" class="btn btn-primary">Ver exportación</a>
+        <a href="#sedes" class="btn btn-ghost">Conocer las sedes</a>
+      </div>
+    </div>
+    <div class="hero-fig">
+      <svg class="cherry-svg" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ilustración de un mapa con tres puntos">
+        <circle cx="180" cy="180" r="170" fill="none" stroke="var(--linea)" stroke-width="1"/>
+        <path d="M70 260 C 120 180, 200 180, 290 100" stroke="var(--hoja)" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="2 10"/>
+        <circle cx="70" cy="260" r="10" fill="var(--cereza)"/>
+        <circle cx="180" cy="190" r="10" fill="var(--oro)"/>
+        <circle cx="290" cy="100" r="10" fill="var(--cereza-2)"/>
+        <text x="70" y="288" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="14" fill="var(--pergamino-2)">Tello</text>
+        <text x="180" y="218" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="14" fill="var(--pergamino-2)">Neiva</text>
+        <text x="290" y="128" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="14" fill="var(--pergamino-2)">Pitalito</text>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="stats">
+    <div class="stat">
+      <div class="num">340 msnm</div>
+      <div class="lbl">Altitud de Tello, zona baja y de piedemonte</div>
+    </div>
+    <div class="stat">
+      <div class="num">700 msnm</div>
+      <div class="lbl">Altitud de Neiva, sede central y de exportación</div>
+    </div>
+    <div class="stat">
+      <div class="num">1.650 msnm</div>
+      <div class="lbl">Altitud de Pitalito, zona alta de cafés especiales</div>
+    </div>
+  </div>
+</div>
+
+<section id="sedes" class="sedes">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="kicker">Tres orígenes, un mismo cuidado</div>
+        <h2>Nuestras sedes en el Huila</h2>
+      </div>
+      <p>La altitud cambia el carácter de la taza. Por eso operamos en tres puntos del departamento, cada uno con su propio perfil.</p>
+    </div>
+
+    <div class="altitude-chart">
+      <svg viewBox="0 0 1000 220" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Perfil de altitud de las tres sedes: Tello, Neiva y Pitalito">
+        <path d="M0 190 C 120 185, 180 170, 260 160 C 340 150, 380 100, 460 90 C 560 78, 620 150, 700 120 C 800 85, 880 40, 1000 30" fill="none" stroke="var(--cereza)" stroke-width="2.5"/>
+        <line x1="80" y1="0" x2="80" y2="220" stroke="var(--tierra)" stroke-opacity="0.12" stroke-width="1"/>
+        <line x1="480" y1="0" x2="480" y2="220" stroke="var(--tierra)" stroke-opacity="0.12" stroke-width="1"/>
+        <line x1="920" y1="0" x2="920" y2="220" stroke="var(--tierra)" stroke-opacity="0.12" stroke-width="1"/>
+        <circle cx="80" cy="184" r="6" fill="var(--cereza)"/>
+        <circle cx="480" cy="94" r="6" fill="var(--cereza)"/>
+        <circle cx="920" cy="34" r="6" fill="var(--cereza)"/>
+        <text x="80" y="210" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="15" fill="var(--tierra-2)">Tello</text>
+        <text x="480" y="210" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="15" fill="var(--tierra-2)">Neiva</text>
+        <text x="920" y="210" text-anchor="middle" font-family="Work Sans, sans-serif" font-size="15" fill="var(--tierra-2)">Pitalito</text>
+      </svg>
+    </div>
+
+    <div class="sedes-grid">
+      <div class="sede">
+        <div class="msnm">Zona baja</div>
+        <h3>Tello</h3>
+        <p>Fincas de piedemonte donde comienza la recolección. El clima cálido acelera la maduración y da lotes de cuerpo pronunciado.</p>
+      </div>
+      <div class="sede">
+        <div class="msnm">Sede central</div>
+        <h3>Neiva</h3>
+        <p>Nuestra planta de trilla, bodegas y oficina de exportación. Aquí se consolidan, catan y empacan los lotes de las tres zonas.</p>
+      </div>
+      <div class="sede">
+        <div class="msnm">Zona alta</div>
+        <h3>Pitalito</h3>
+        <p>La altitud del sur del Huila, reconocida por sus cafés especiales de taza dulce, acidez cítrica y notas florales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
